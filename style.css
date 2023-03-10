@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --sidebar-color: #fff
+}
+
+.sidebar .image-text img {
+    width: 40px;
+    -webkit-filter: invert(1);
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    background-color: var(--sidebar-color);
+}
